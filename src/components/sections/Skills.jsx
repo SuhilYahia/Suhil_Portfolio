@@ -92,17 +92,6 @@ const Skills = () => {
           ))}
         </div>
       </div>
-
-      <style jsx>{`
-        @keyframes slideIn {
-          from {
-            width: 0;
-          }
-          to {
-            width: var(--width);
-          }
-        }
-      `}</style>
     </section>
   );
 };
