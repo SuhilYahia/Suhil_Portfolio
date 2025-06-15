@@ -30,7 +30,7 @@ function App() {
           } />
           <Route path="/details_project/forsahjadiduh" element={<ForsaJadiduhDetails />} />
           <Route path="/details_project/coffee" element={<CoffeeDetails />} />
-          <Route path="/details_project/E-Learning Platform" element={<ELearningDetails />} />        </Routes>
+          <Route path="/details_project/e-learning" element={<ELearningDetails />} />        </Routes>
       </main>
       <Footer />
     </div>

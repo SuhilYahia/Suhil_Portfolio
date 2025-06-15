@@ -71,7 +71,7 @@ const Projects = () => {
 
              {project.title.includes("E-Learning Platform") && (
                  <button
-                  onClick={() => navigate('/details_project/E-Learning Platform')}
+                  onClick={() => navigate('/details_project/e-learning')}
                   className="mt-4 px-4 py-2 bg-[#2C3E50] text-white rounded-md hover:bg-[#1a252f] transition-all duration-300"
                 >
                   View Project Details
