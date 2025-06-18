@@ -29,7 +29,7 @@ const Hero = () => {
         {/* الأزرار */}
         <div className="flex flex-col sm:flex-row gap-3 mb-5 w-full sm:w-auto opacity-0 slide-up animation-delay-1000 justify-center">
           <a
-            href="/MyLastCv.pdf"
+            href="/my_last_cv.pdf"
             download
             className="px-8 py-3 rounded-full bg-[#2C3E50] text-white font-bold shadow-lg hover:bg-[#34495E] transition-all duration-300 hover:scale-105 text-sm md:text-base text-center"
           >
