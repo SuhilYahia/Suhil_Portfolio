@@ -4,16 +4,17 @@ import myImage from '../../assets/MYIMAGE.png';
 const Hero = () => {
   return (
     <section id="home" className="min-h-screen flex flex-col-reverse md:flex-row items-center justify-center bg-transparent px-6 md:px-12 py-16 gap-10 relative overflow-hidden transition-colors duration-300 pt-24 md:pt-0">
-      {/* Animated background elements */}
+      
+      {/* خلفية متحركة */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden">
         <div className="absolute top-20 left-20 w-72 h-72 bg-[#2C3E50]/5 dark:bg-[#2C3E50]/10 rounded-full blur-3xl animate-blob"></div>
         <div className="absolute bottom-20 right-20 w-72 h-72 bg-[#2C3E50]/5 dark:bg-[#2C3E50]/10 rounded-full blur-3xl animate-blob animation-delay-2000"></div>
       </div>
 
-      {/* Left: Text Content */}
+      {/* محتوى النص */}
       <div className="flex-1 flex flex-col items-center justify-center text-center h-full relative z-10">
         <h2 className="text-sm md:text-base text-[#7f8c8d] dark:text-[#bdc3c7] font-semibold mb-2 tracking-widest opacity-0 slide-up animation-delay-200">
-           Hello, I'm
+          Hello, I'm
         </h2>
         <h1 className="text-4xl md:text-6xl font-extrabold text-[#2C3E50] dark:text-white mb-3 leading-tight opacity-0 slide-up animation-delay-400">
           Suhil Mohammed
@@ -24,9 +25,12 @@ const Hero = () => {
         <p className="text-gray-600 dark:text-gray-300 mb-7 max-w-md text-sm md:text-base leading-relaxed opacity-0 slide-up animation-delay-800">
           Passionate about building modern web applications with great user experiences. I love to solve problems and learn new technologies.
         </p>
+
+        {/* الأزرار */}
         <div className="flex flex-col sm:flex-row gap-3 mb-5 w-full sm:w-auto opacity-0 slide-up animation-delay-1000 justify-center">
           <a
-            href="#"
+            href="/MyLastCv.pdf"
+            download
             className="px-8 py-3 rounded-full bg-[#2C3E50] text-white font-bold shadow-lg hover:bg-[#34495E] transition-all duration-300 hover:scale-105 text-sm md:text-base text-center"
           >
             Download CV
@@ -38,7 +42,8 @@ const Hero = () => {
             About Me
           </a>
         </div>
-        {/* Social Icons */}
+
+        {/* الأيقونات الاجتماعية */}
         <div className="flex gap-4 justify-center opacity-0 slide-up animation-delay-1200">
           <a href="#" className="text-[#2C3E50] dark:text-[#bdc3c7] hover:text-[#34495E] transition text-2xl md:text-3xl hover:scale-110">
             <i className="fab fa-github"></i>
@@ -49,7 +54,7 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Right: Image */}
+      {/* الصورة الشخصية */}
       <div className="flex-1 flex justify-center items-center relative z-10">
         <div className="relative group opacity-0 fade-in">
           <img
@@ -64,4 +69,4 @@ const Hero = () => {
   );
 };
 
-export default Hero; 
+export default Hero;
