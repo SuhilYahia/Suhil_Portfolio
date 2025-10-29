@@ -20,7 +20,7 @@ const Hero = () => {
         <a href="#" className="bg-white shadow rounded-xl p-2 hover:bg-[#e0e0f7] transition">
           <i className="fab fa-github text-xl text-[#22223b]"></i>
         </a>
-        <a href="https://wa.me/96737775942" target="_blank" rel="noopener noreferrer" className="bg-white shadow rounded-xl p-2 hover:bg-[#e0e0f7] transition">
+        <a href="https://wa.me/+" target="_blank" rel="noopener noreferrer" className="bg-white shadow rounded-xl p-2 hover:bg-[#e0e0f7] transition">
           <i className="fab fa-whatsapp text-xl text-[#22223b]"></i>
         </a>
         <div className="w-0.5 h-10 bg-[#6c63ff] mx-auto"></div>
